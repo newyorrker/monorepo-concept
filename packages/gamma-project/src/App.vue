@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
     <textInput />
     <textInput1 />
@@ -11,7 +11,7 @@
 import Vue from 'vue';
 import HelloWorld from '@/components/HelloWorld.vue';
 
-import textInput from '<-/common/controls/src/textInput.vue';
+import textInput from '%/common/controls/src/textInput.vue';
 // import HelloWorld from './components/HelloWorld.vue';
 
 export default Vue.extend({
